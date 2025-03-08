@@ -6,7 +6,7 @@ pipeline {
 	stages {
 	    stage('Git CheckOut') {
 		    steps {
-			   git branch: 'main', credentialsId: 'My private token login creds', url: 'https://github.com/logicopslab/WebAppForJenkins.git'
+			   git branch: 'main', credentialsId: 'My private token login creds', url: 'https://github.com/shreyas95-tech/WebAppForJenkins.git'
 			}
 		}
         stage('Clean and Install') {
